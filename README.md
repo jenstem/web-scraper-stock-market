@@ -33,7 +33,7 @@ GIVEN a Python Web Scraping app\
 WHEN I install the libraries and run the app\
 THEN I see a CSV file in the app\
 WHEN I open the CSV file\
-THEN I see all the information from the stock market site that I requested\
+THEN I see all the information from the stock market site that I requested
 ##
 
 <a id='installation'></a>
