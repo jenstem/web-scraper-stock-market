@@ -30,3 +30,7 @@ for i in rows[1:]:
     row = [tr.text for tr in data]
     l = len(df)
     df.loc[l] = row
+
+print(df)
+
+df.to_csv("stock_market_data.csv")
